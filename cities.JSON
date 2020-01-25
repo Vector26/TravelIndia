@@ -1,0 +1,31 @@
+{
+    "cities":{
+"Ladakh":[ "Chadar","frozen river trek" , "Markha valley trek "," Kargil"],
+"Manali" :[ "Solang valley, Hadimba temple , Beas Kund trek"],
+"Amritsar":["Golden temple ","Jallianwala bagh","Wagah border"],
+"uttrakhand" :["Valley of flowers","chardham","chopta","RudraPrayag"],
+"New delhi":["Humayun's tomb","Hauz Khas Vilage","Rashtrapati bhawan"],
+"Lucknow":[ "Badha imambadha", "chhota imambadha" ,"residency"],
+"agra":[ "taj mahal","fatehpur sikri","Jama Masjid","khas mahal"],
+"mathura":[ "dwarkadhish temple","radha kund","krishna janma bhoomi mandir"],  
+"jaipur"  :[ "hawa mahal","amer fort","nahargarh fort"],
+"udaipur"  :[" lake pichola","sajjangarh palace","eklingi temple","fateh sagar lake"],
+"ahmedabad"  :["swaminarayan temple","dada hari wav","kankaria lake"],
+"surat"   :[ "dutch garden","dumas beach","ambaji temple"],
+"gwalior" :["jai vilas palace","teli ka mandir","tomb of tansen"],
+"indore":["lal bagh palace","kanch mandir","annapurna temple"],
+"gangtok":[" Nathu La pass","MG road","Rumtek monastery"],
+"shilong":["Mawlynnong","Umian lake"," Elephant falls" ],
+"assam":["manas national park","kaziranga national park","hajo"],
+"kochi":["willingdon island","kerela kathakkali center ","santa crews vasilica church"],
+"goa":["fort aguada","calangute beach","scuba diving in goa "],
+"pondicherry" :["paradise beach","french war memorial","pondicherry lighthouse"],    
+"kolkata":["victoria memorial","science city","calcutta jain temple"],
+"mumbai":["gateway of india","juhu beach ","sri babulnath temple" ],
+"mahabaleshwar":["krishnabai temple","mahabaleshwar mandir","vajrai falls"],
+"pune":["chaturshringi temple","sarasbaug ganapathi temple","dagdusheth halwai ganpathi temple"],
+"bhubaneshwar":["lingaraj temple","hirakud dam"," parasurameshwara temple"],
+"hyderabad":["ramojii film city","charminar","golconda fort"],
+"ranchi":["Sun temple","panchgagh falls","ranchi lake"]
+}
+}

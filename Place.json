@@ -1,0 +1,108 @@
+{
+    "version": "1.0",
+    "session": {
+        "new": false,
+        "sessionId": "amzn1.echo-api.session.bf6f0d7e-f037-452a-97bc-a8c284ecc27b",
+        "application": {
+            "applicationId": "amzn1.ask.skill.0a8fa80b-5724-4548-8207-c381fef01889"
+        },
+        "user": {
+            "userId": "amzn1.ask.account.AF5OBIDPHBQLL6NZE5E2QM5BXR5DZJPU25SFQQ6IFLZT7U6Q4NLZG6FN2ZCYASLA5LKUL5XJPINZ6MUMFSMLVV3RUSLCAXRIO5OT3GV2DMSJXSGSIODCZ3YQ7BKTXTWUO53LI6BVUIWLEAFYGOJMPV74EYELU4DPEAP7ZBXYLCX7MVQM3Q27YXLVR7XUBPF3DW3LIVTJIGE34VY"
+        }
+    },
+    "context": {
+        "System": {
+            "application": {
+                "applicationId": "amzn1.ask.skill.0a8fa80b-5724-4548-8207-c381fef01889"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.AF5OBIDPHBQLL6NZE5E2QM5BXR5DZJPU25SFQQ6IFLZT7U6Q4NLZG6FN2ZCYASLA5LKUL5XJPINZ6MUMFSMLVV3RUSLCAXRIO5OT3GV2DMSJXSGSIODCZ3YQ7BKTXTWUO53LI6BVUIWLEAFYGOJMPV74EYELU4DPEAP7ZBXYLCX7MVQM3Q27YXLVR7XUBPF3DW3LIVTJIGE34VY"
+            },
+            "device": {
+                "deviceId": "amzn1.ask.device.AFDCUZK6XVM25EHLLA7YX4RORVLZP3OZNQDA2CIYBPHCCM27AA7GQTMDP3QCIWWOYF7ZHQ2SOCHATS4JGA2TRZLXOOXXQCC7ETNYVXJSIHCBZCDW56FWPOJVD2UVAVU2KTKOAVZQJIMTYZN2JMXAQCIKSJVA",
+                "supportedInterfaces": {}
+            },
+            "apiEndpoint": "https://api.eu.amazonalexa.com",
+            "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjBhOGZhODBiLTU3MjQtNDU0OC04MjA3LWMzODFmZWYwMTg4OSIsImV4cCI6MTU3Nzk2Mzc0MCwiaWF0IjoxNTc3OTYzNDQwLCJuYmYiOjE1Nzc5NjM0NDAsInByaXZhdGVDbGFpbXMiOnsiY29udGV4dCI6IkFBQUFBQUFBQVFEbU5Cem9PVkNFbUo0dU1zaGx5eVdvSkFFQUFBQUFBQUNnN3N5cjlSVmp1Sm9MeUNCTW9BYk9GMnVCam5qNWNHZUR1elc2N2ZkeVFZelhNcS9uV2c1dHZoVjQrcktHQWZodEpGK2plQ3Urb0dYcytxTmJWVHhPTEdNeXFoU0JlNkp1TXJCclBoU2xDY09KdnpLYklDcUM1K2ZibWphUlVDaCtVb0N6OG9aLzdISkpST3I1ZDZvb2oxd2J5K0M0aC9oc1loR2VCWEpjdEdBUkJsSHZjZ0FOY3M1SCtWOWR2bzdYVXJ1STlVSlVXcE5UOFRwVi9SaWh2T1NlamNtelpmY0xZd0VMd2xxWTZDNFNKVnhLdkU4eHA5cXNleDY2Q0czeCs3WXBvRGQ1YmlrTTE3WDhuQVhxcllYL1F4VlNDZWJyTHBBUUszUlZJSTFWMlZNeWl4YnJMSFJMKzIyS29ZazFBUFJsQmtMQ2tycjRPenYxblI1SHpGek9CZTF3cDhvRXlVVXB5NEM5S0xzV0dhWkxHOXJXL3QwUDN6amFEbEdib1BQNyIsImNvbnNlbnRUb2tlbiI6bnVsbCwiZGV2aWNlSWQiOiJhbXpuMS5hc2suZGV2aWNlLkFGRENVWks2WFZNMjVFSExMQTdZWDRST1JWTFpQM09aTlFEQTJDSVlCUEhDQ00yN0FBN0dRVE1EUDNRQ0lXV09ZRjdaSFEyU09DSEFUUzRKR0EyVFJaTFhPT1hYUUNDN0VUTllWWEpTSUhDQlpDRFc1NkZXUE9KVkQyVVZBVlUyS1RLT0FWWlFKSU1UWVpOMkpNWEFRQ0lLU0pWQSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFGNU9CSURQSEJRTEw2TlpFNUUyUU01QlhSNURaSlBVMjVTRlFRNklGTFpUN1U2UTROTFpHNkZOMlpDWUFTTEE1TEtVTDVYSlBJTlo2TVVNRlNNTFZWM1JVU0xDQVhSSU81T1QzR1YyRE1TSlhTR1NJT0RDWjNZUTdCS1RYVFdVTzUzTEk2QlZVSVdMRUFGWUdPSk1QVjc0RVlFTFU0RFBFQVA3WkJYWUxDWDdNVlFNM1EyN1lYTFZSN1hVQlBGM0RXM0xJVlRKSUdFMzRWWSJ9fQ.CsXi6k3lvS3Bkau9CFXPraNOw6ogDI7Ya5c39Acn4NhLvgoirMESoF9NMi1EpiOyaZBQfhJAV1djG5oWBokYIH2p72BhiFbBuJBZjac_WGc7ZcBLcf99BnUIpNhZ4HtQrILsJPgT1Eu3DeF36pr9Fky5i9unt4AwyH5ebpCBjr8bfoyjw6fGDbm8UFjf5T4lH2zESfrkY6zgIS_hjo4ZOJGAm3uSO3iER88D2AHnkspO-3i29iked5_VXwV7kOHOvAb0GxQuNykRQU3tcYL7g-mrIsz2xs9TMSZI-hu-H1uBGanBtsUzXKOsQMN9YXtoRmPkqQdNLwwC-J0rBN7w8A"
+        },
+        "Viewport": {
+            "experiences": [
+                {
+                    "arcMinuteWidth": 246,
+                    "arcMinuteHeight": 144,
+                    "canRotate": false,
+                    "canResize": false
+                }
+            ],
+            "shape": "RECTANGLE",
+            "pixelWidth": 1024,
+            "pixelHeight": 600,
+            "dpi": 160,
+            "currentPixelWidth": 1024,
+            "currentPixelHeight": 600,
+            "touch": ["SINGLE"],
+            "video": {
+                "codecs": ["H_264_42", "H_264_41"]
+            }
+        },
+        "Viewports": [
+            {
+                "type": "APL",
+                "id": "main",
+                "shape": "RECTANGLE",
+                "dpi": 160,
+                "presentationType": "STANDARD",
+                "canRotate": false,
+                "configuration": {
+                    "current": {
+                        "video": {
+                            "codecs": ["H_264_42", "H_264_41"]
+                        },
+                        "size": {
+                            "type": "DISCRETE",
+                            "pixelWidth": 1024,
+                            "pixelHeight": 600
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "amzn1.echo-api.request.45ad58f9-051f-4fd8-bc66-e3492548a23d",
+        "timestamp": "2020-01-02T11:10:40Z",
+        "locale": "en-US",
+        "intent": {
+            "name": "Direction",
+            "confirmationStatus": "NONE",
+            "slots": {
+                "places": {
+                    "name": "places",
+                    "value": "Taj Mahal",
+                    "resolutions": {
+                        "resolutionsPerAuthority": [
+                            {
+                                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.0a8fa80b-5724-4548-8207-c381fef01889.places",
+                                "status": {
+                                    "code": "ER_SUCCESS_MATCH"
+                                },
+                                "values": [
+                                    {
+                                        "value": {
+                                            "name": "taj mahal",
+                                            "id": "1a847e25e3481d0f9840a3c49853902b"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "confirmationStatus": "NONE",
+                    "source": "USER"
+                }
+            }
+        },
+        "dialogState": "COMPLETED"
+    }
+}
