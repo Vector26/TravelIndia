@@ -123,7 +123,7 @@ function DirectionSpeech(cont,attr,context,request){
       content: start[0]+" and "+start[1]
     },endSession:false}));*/
     //start=[26.790085, 80.911433];
-    https.get(`https://maps.googleapis.com/maps/api/directions/json?origin=${start[0]},%20${start[1]}&destination=${coordinates['lat']},${coordinates['lng']}&key=AIzaSyDvS_ZbCO7TsQmEBY0Ne0oR85SThn6BQRQ`,(res)=>{
+    https.get(`https://maps.googleapis.com/maps/api/directions/json?origin=${start[0]},%20${start[1]}&destination=${coordinates['lat']},${coordinates['lng']}&key=YOUR GOOGLE API KEY`,(res)=>{
        res.on('data',(info)=>{
               body+=info;
               }); 
@@ -170,7 +170,7 @@ function PlaceDetect(placeName){
 //var Data;
 //context.succeed(buildResponse({speechText:placeName,endSession:false}));
 placeName=placeName.replace(/ /,'%20');
-let Data=syncReq('GET',`https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=${placeName}&inputtype=textquery&key=AIzaSyDvS_ZbCO7TsQmEBY0Ne0oR85SThn6BQRQ`);
+let Data=syncReq('GET',`https://maps.googleapis.com/maps/api/place/findplacefromtext/json?input=${placeName}&inputtype=textquery&key=YOUR GOOGLE API KEY`);
      //context.succeed(buildResponse({speechText:body,endSession:false}));
     
     let body=Data.getBody('utf8');
@@ -181,7 +181,7 @@ let Data=syncReq('GET',`https://maps.googleapis.com/maps/api/place/findplacefrom
     var place_id;
      place_id=data['candidates'][0]['place_id'];
     //context.succeed(buildResponse({speechText:place_id,endSession:false}));
-let fData=syncReq('GET',`https://maps.googleapis.com/maps/api/place/details/json?place_id=${place_id}&key=AIzaSyDvS_ZbCO7TsQmEBY0Ne0oR85SThn6BQRQ`);
+let fData=syncReq('GET',`https://maps.googleapis.com/maps/api/place/details/json?place_id=${place_id}&key=YOUR GOOGLE API KEY`);
     body=fData.getBody('utf8');
     
     data=JSON.parse(body);
@@ -198,13 +198,13 @@ function weatherKnowledge(attr,context,request){
     if(request.intent.slots.place.value){
     let data=PlaceDetect(request.intent.slots.place.value);
     //context.succeed(data['result']['geometry']['location']['lat']+" "+data['result']['geometry']['location']['lng']);
-    body=syncReq('GET',`http://api.openweathermap.org/data/2.5/weather?lat=${data['result']['geometry']['location']['lat'].toFixed(4)}&lon=${data['result']['geometry']['location']['lng'].toFixed(4)}&units=metric&apikey=0e463c5306ad1522120979347e9fd64a`).getBody('utf8');
+    body=syncReq('GET',`http://api.openweathermap.org/data/2.5/weather?lat=${data['result']['geometry']['location']['lat'].toFixed(4)}&lon=${data['result']['geometry']['location']['lng'].toFixed(4)}&units=metric&apikey=YourOpenWeatherApiKey`).getBody('utf8');
     //context.succeed(body);
     var name=data['result']['name'];
     }
     else
     {
-    body=syncReq('GET',`http://api.openweathermap.org/data/2.5/weather?lat=31.016173&lon=77.071902&units=metric&apikey=0e463c5306ad1522120979347e9fd64a`).getBody('utf8');
+    body=syncReq('GET',`http://api.openweathermap.org/data/2.5/weather?lat=31.016173&lon=77.071902&units=metric&apikey=YourOpenWeatherAPiKey`).getBody('utf8');
     }
     body=JSON.parse(body);
     let options={speechText:`Weather is ${body['weather'][0]['main']}. Temperature feels like : ${body['main']['feels_like']} degree Centigrade .`,
@@ -241,7 +241,7 @@ function hotelSearch(cont,attr,context,request){
          //context.succeed(buildResponse(options));
          start=[31.016173,77.071902];
         }
-    let body=syncReq('GET',`https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${start[0]},${start[1]}&radius=2000&name=${service}&key=AIzaSyDvS_ZbCO7TsQmEBY0Ne0oR85SThn6BQRQ`);
+    let body=syncReq('GET',`https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${start[0]},${start[1]}&radius=2000&name=${service}&key=YOUR GOOGLE API KEY`);
     body=body.getBody('utf8');
     body=JSON.parse(body);
     body['results'].forEach((obj)=>{
@@ -250,7 +250,7 @@ function hotelSearch(cont,attr,context,request){
     });
     let cou=0;
     if(arr.length<5){
-    body=syncReq('GET',`https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${start[0]},${start[1]}&radius=7500&name=${service}&key=AIzaSyDvS_ZbCO7TsQmEBY0Ne0oR85SThn6BQRQ`);
+    body=syncReq('GET',`https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${start[0]},${start[1]}&radius=7500&name=${service}&key=YOUR GOOGLE API KEY`);
     body=body.getBody('utf8');
     body=JSON.parse(body);
     body['results'].forEach((obj)=>{
@@ -262,7 +262,7 @@ function hotelSearch(cont,attr,context,request){
     });}
     let c=0;
     while(c<1&&body['next_page_token']){
-       body=(syncReq('GET',`https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${start[0]},${start[1]}&next_page_token=${body['next_page_token']}&radius=1500&name=${service}&key=AIzaSyDvS_ZbCO7TsQmEBY0Ne0oR85SThn6BQRQ`)).getBody('utf8'); 
+       body=(syncReq('GET',`https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=${start[0]},${start[1]}&next_page_token=${body['next_page_token']}&radius=1500&name=${service}&key=YOUR GOOGLE API KEY`)).getBody('utf8'); 
        body=JSON.parse(body);
        body['results'].forEach((obj)=>{
         if(obj['name']!=="Jaypee University of Information Technology"&&obj['name']!=="Waknaghat"&&obj['name']!=="JUIT Auditorium"&&obj['name']!=="Laundry"&&obj['name']!=="BasketBall Court"&&obj['name']!=="Azad Bhawan"&&obj['name']!=="Azad Bhavan"){
@@ -420,7 +420,7 @@ function placeFinder(attr,context,request){
     Data['result']['photos'].forEach((obj)=>{
         
         let photo_reference=obj['photo_reference'];
-    let rawData=syncReq('GET',`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${photo_reference}&key=AIzaSyBARs4NOfqKP_EMzFCavnHgSgKYkHJ9KAA`);
+    let rawData=syncReq('GET',`https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${photo_reference}&key=YOUR GOOGLE API KEYKP_EMzFCavnHgSgKYkHJ9KAA`);
     //
     let url=rawData.url;
     //context.succeed(buildResponse({speechText:url,endSession:true}));
