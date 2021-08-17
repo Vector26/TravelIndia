@@ -1,0 +1,292 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": true,
+		"sessionId": "amzn1.echo-api.session.0795773e-38e5-4085-9f1f-76ad1a83ca9b",
+		"application": {
+			"applicationId": "amzn1.ask.skill.0a8fa80b-5724-4548-8207-c381fef01889"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AFSO6ERTMJ46HYJNAI4GU5TJIVGTZYLQMGQAYVXHFREKAAD4CADH2ZT2TSI6EUW2RLH7EZWNNGVAGEQGUR7HJY25QFV64RG7WI4AODR73CZJIOAGO7YBIYQY2FKVUWMKGOQ2FOAJKMYLRAG7HSTVV2XZAXLJYIKCLBQYG6VLML7LTFJNXYX5GI5KFPBJ56MNRQEN755MEJRWPNQ",
+			"permissions": {
+				"scopes": {
+					"alexa::devices:all:geolocation:read": {
+						"status": "DENIED"
+					}
+				}
+			}
+		}
+	},
+	"context": {
+		"Viewports": [
+			{
+				"type": "APL",
+				"id": "main",
+				"shape": "RECTANGLE",
+				"dpi": 213,
+				"presentationType": "STANDARD",
+				"canRotate": false,
+				"configuration": {
+					"current": {
+						"mode": "HUB",
+						"video": {
+							"codecs": [
+								"H_264_42",
+								"H_264_41"
+							]
+						},
+						"size": {
+							"type": "DISCRETE",
+							"pixelWidth": 1280,
+							"pixelHeight": 800
+						}
+					}
+				}
+			}
+		],
+		"Viewport": {
+			"experiences": [
+				{
+					"arcMinuteWidth": 346,
+					"arcMinuteHeight": 216,
+					"canRotate": false,
+					"canResize": false
+				}
+			],
+			"mode": "HUB",
+			"shape": "RECTANGLE",
+			"pixelWidth": 1280,
+			"pixelHeight": 800,
+			"dpi": 213,
+			"currentPixelWidth": 1280,
+			"currentPixelHeight": 800,
+			"touch": [
+				"SINGLE"
+			],
+			"video": {
+				"codecs": [
+					"H_264_42",
+					"H_264_41"
+				]
+			}
+		},
+		"Extensions": {
+			"available": {
+				"aplext:backstack:10": {}
+			}
+		},
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.0a8fa80b-5724-4548-8207-c381fef01889"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AFSO6ERTMJ46HYJNAI4GU5TJIVGTZYLQMGQAYVXHFREKAAD4CADH2ZT2TSI6EUW2RLH7EZWNNGVAGEQGUR7HJY25QFV64RG7WI4AODR73CZJIOAGO7YBIYQY2FKVUWMKGOQ2FOAJKMYLRAG7HSTVV2XZAXLJYIKCLBQYG6VLML7LTFJNXYX5GI5KFPBJ56MNRQEN755MEJRWPNQ",
+				"permissions": {
+					"scopes": {
+						"alexa::devices:all:geolocation:read": {
+							"status": "DENIED"
+						}
+					}
+				}
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AEU4GIGFY44KC5TA45GYBPXRLWDSRD4IJY672PNLERRL526FUZHJTL2XZE5JMSXVIUMMXDXKFI4VXRQPUE4HEXOSKBM746QEIHBM7V3HSQ2RKTCLQEB54NE5OQRBH7JDFW3RABNJRUZ5JTN4MQ2F47XC2D4Q",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.eu.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5ldS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjBhOGZhODBiLTU3MjQtNDU0OC04MjA3LWMzODFmZWYwMTg4OSIsImV4cCI6MTYyNjUwMzM4NSwiaWF0IjoxNjI2NTAzMDg1LCJuYmYiOjE2MjY1MDMwODUsInByaXZhdGVDbGFpbXMiOnsibm9uTHdhU2NvcGVzIjoiYWxleGE6OnBlcnNvbl9pZDpyZWFkIiwiY29udGV4dCI6IkFBQUFBQUFBQVFCZlZKZnk5YkpBbG00SjdYTU1ZU3JwSkFFQUFBQUFBQUNjWlk0TVUrNkt4Y3o5d2RldDgrb0ZyQ01zcXpiM1JkeXZ3eDdyY0NqSmFXM2dKZGxZNVJWMUIxbUxleWhUQmxERTRVUE9CWHRZM2prZDZlMEhLaEdHTjBNTVJHZWJxamVVOW1HcnFTWEhWR0tNTEpvVWRTUmJvbXV3MlJobGpzV3krcllqVWFRMStqVXo1dEh1OVI2alh5Q2Q2TEtqYWRtbVNvV1RoYXd6ZzBXeXFKL0FCTExSeXNob3RqRW9YcnFXZzliZk42MFBFZlVuLy9NdDI5VXcyTXQzN3dFMDBTL2RVS1lOdUlqWG5OY0V1bDJ1bHZmcjlxSkYyTmE1N0JTTWdhWjErVTNGMEtuUTJLc3orL3VLU2RVUTh3VGxwSzJiUHphQThNcENCcVZiZXhSdmNlZVVveFRDQnZiaXFKRWt6NzhSNVp5bnY4WGZ5UTQwOVd3SnJPWHRvdDhXZ0VmK2d6WnoyNjV3NE5pZzNEVHpzUE1yT0lQb1kzOTl2cld3Q2lQOCIsImNvbnNlbnRUb2tlbiI6bnVsbCwiZGV2aWNlSWQiOiJhbXpuMS5hc2suZGV2aWNlLkFFVTRHSUdGWTQ0S0M1VEE0NUdZQlBYUkxXRFNSRDRJSlk2NzJQTkxFUlJMNTI2RlVaSEpUTDJYWkU1Sk1TWFZJVU1NWERYS0ZJNFZYUlFQVUU0SEVYT1NLQk03NDZRRUlIQk03VjNIU1EyUktUQ0xRRUI1NE5FNU9RUkJIN0pERlczUkFCTkpSVVo1SlRONE1RMkY0N1hDMkQ0USIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFGU082RVJUTUo0NkhZSk5BSTRHVTVUSklWR1RaWUxRTUdRQVlWWEhGUkVLQUFENENBREgyWlQyVFNJNkVVVzJSTEg3RVpXTk5HVkFHRVFHVVI3SEpZMjVRRlY2NFJHN1dJNEFPRFI3M0NaSklPQUdPN1lCSVlRWTJGS1ZVV01LR09RMkZPQUpLTVlMUkFHN0hTVFZWMlhaQVhMSllJS0NMQlFZRzZWTE1MN0xURkpOWFlYNUdJNUtGUEJKNTZNTlJRRU43NTVNRUpSV1BOUSJ9fQ.GqM0nYSefjNrj1MKktGP33ytohmaS2mbn-oX3aJb7PGH3LSyPsPNMQkWMFl_6EkxbSoCSF3w0JsriG5l36poe2V4fqYlBe9ssiMJ6rZBLXACzpmFxZ6IvmKkwTnFNRV0MDXTmfI-2fe1Sqi4XHX6oSMlhFg-7aXfKRI4bZydhYAbZfwluzpIzYh7VsYcvL-NNg78vEkmN7LZEKWI6Y59hViUnZ4cun55V4_hBDxIdika8mQVd8_ap2BycG8BKmJ-oiH1mLrAH705s3W1uGVZgdSD_3vBgvRG_kAs6z5xf8CAikKcvsmcZwUG36jhKtiXy0dYvgyCM8pbZmVnkY6rDQ"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.af0f1e70-22b9-44c1-b483-b5043617177a",
+		"locale": "en-IN",
+		"timestamp": "2021-07-17T06:24:45Z",
+		"intent": {
+			"name": "seasonRecommend",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"season": {
+					"name": "season",
+					"value": "summer",
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				},
+				"state": {
+					"name": "state",
+					"confirmationStatus": "NONE",
+					"source": "USER"
+				}
+			}
+		},
+		"dialogState": "COMPLETED"
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "version": "1.0",
+  "session": {
+    "new": true,
+    "sessionId": "amzn1.echo-api.session.13fe531a-75e0-400a-9787-36bfdddcd826",
+    "application": {
+      "applicationId": "amzn1.ask.skill.0a8fa80b-5724-4548-8207-c381fef01889"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AFSO6ERTMJ46HYJNAI4GU5TJIVGTZYLQMGQAYVXHFREKAAD4CADH2ZT2TSI6EUW2RLH7EZWNNGVAGEQGUR7HJY25QFV64RG7WI4AODR73CZJIOAGO7YBIYQY2FKVUWMKGOQ2FOAJKMYLRAG7HSTVV2XZAXLJYIKCLBQYG6VLML7LTFJNXYX5GI5KFPBJ56MNRQEN755MEJRWPNQ",
+      "permissions": {
+        "consentToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjBhOGZhODBiLTU3MjQtNDU0OC04MjA3LWMzODFmZWYwMTg4OSIsImV4cCI6MTU3OTYwNDU1NywiaWF0IjoxNTc5NjAwOTU3LCJuYmYiOjE1Nzk2MDA5NTcsInByaXZhdGVDbGFpbXMiOnsiaXNEZXByZWNhdGVkIjoidHJ1ZSIsIm5vbkx3YVNjb3BlcyI6ImFsZXhhOjpwZXJzb25faWQ6cmVhZCIsImNvbnNlbnRUb2tlbiI6IkF0emF8SXdFQklEQXFiWjkzMlVnWDZjZFIwNjcyaVhVN3BwZjVsMXVxUWNLRVpiNEhnYTNGMG1Tdkt0NHk5Q01uWU5KU2M3UkxUWERnMDVTMTVVNFZ3cHhPUHM4b3FUNEJtdDVuS3RwYmMyS3drWWNQcTNsS21EU0tjamZRMFY2VXlDWW9RaTlrbGpEMFE4dGoydFk5VFpNalVJWGxSNG1kZ0x2alZDSkpjVUFKbHNqQm9Iek1kYWxPWmlGblFFRlN2YldEZ0t5OTVZV0pnTUlhV2J4TjQ4anNycEwtcV9mUGNTY0s5aERWR0tlNFhJNHgwNUZaV181X01VdWtiam1XTFBGZ3haV2VEX1N5ZENpemRCeTZ5d0hyakExQUU2WG82WE9GNktTX19MSnRUdzE1QTNBbmJzajhPT29oMDZYWDdOVkJUQ0prbmMtaGF4NlZRRjY1bWVja3FPUUx0N0RteUJheXlxVVJLaEV3clpVYlV0OHU3MUFUTXVmaHpua0ZYRWw4ZktxZ1JZQ1g1WkVzeTFJdTVGWVBCR3I0dzVUcVFXaGdmcnJQMHRicGdqbVFLZEtzblJxMEdGekNieVotTmJLYmZKUTFCZHk1RTZIeF9PZ0tZRjNDNDYxN1d6UnFsQkR5NFhKN1ZhNDg0Y0NyUWd3TnU4aDNVU3MzRXQyb2JOMGNtdFViSXF5b1kyVHRlbVI4ZC05X19VcWpvaHdqdTJoblpVcEZZc05ZWVVtenBRMjVQejJJemZHQjVic2RMVUtnMl9Wc0QtV1l4cl9ieXpyMzJESnVsUVBlV0FkcGpCMTVJeEQxcTZiT1hqc1d5U1ZMakEiLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUVVNEdJR0ZZNDRLQzVUQTQ1R1lCUFhSTFdEU1JENElKWTY3MlBOTEVSUkw1MjZGVVpISlRMMlhaRTVKTVNYVklVTU1YRFhLRkk0VlhSUVBVRTRIRVhPU0tCTTc0NlFFSUhCTTdWM0hTUTJSS1RDTFFFQjU0TkU1T1FSQkg3SkRGVzNSQUJOSlJVWjVKVE40TVEyRjQ3WEMyRDRRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUZTTzZFUlRNSjQ2SFlKTkFJNEdVNVRKSVZHVFpZTFFNR1FBWVZYSEZSRUtBQUQ0Q0FESDJaVDJUU0k2RVVXMlJMSDdFWldOTkdWQUdFUUdVUjdISlkyNVFGVjY0Ukc3V0k0QU9EUjczQ1pKSU9BR083WUJJWVFZMkZLVlVXTUtHT1EyRk9BSktNWUxSQUc3SFNUVlYyWFpBWExKWUlLQ0xCUVlHNlZMTUw3TFRGSk5YWVg1R0k1S0ZQQko1Nk1OUlFFTjc1NU1FSlJXUE5RIn19.fDfAKFGkXs6YEn3xYjcoLcfjt5qjlrUYf31P4VfqFgs02bqUWZLpiVqg23-_38xcLpHWhEEPxCZ-J4DmOR3HE35G_2rzMZuOPUiW6ptfSBx19ZRLVSkFVQnq_wD1me-0SGu2lIgW7VmbXON0tMuCzp3SRJQKQKzxaD_91lZLwXT4wXHDZjMgwO_dn6CNPMnv3nLyM-veunR53e3KIpm5XmJhWGwQCvE-bwt41tRcx_tdTlaIOUyUva8nAh2NWbt6ExBGioU1Ws-H9GdvETjyShBP6itz4UnjqXqBgyXMHGQDvLHtiGGueBGV9du0mhcfbR_D4vp-nQRa8OjnBbZvog",
+        "scopes": {
+          "alexa::devices:all:geolocation:read": {
+            "status": "GRANTED"
+          }
+        }
+      }
+    }
+  },
+  "context": {
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.0a8fa80b-5724-4548-8207-c381fef01889"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AFSO6ERTMJ46HYJNAI4GU5TJIVGTZYLQMGQAYVXHFREKAAD4CADH2ZT2TSI6EUW2RLH7EZWNNGVAGEQGUR7HJY25QFV64RG7WI4AODR73CZJIOAGO7YBIYQY2FKVUWMKGOQ2FOAJKMYLRAG7HSTVV2XZAXLJYIKCLBQYG6VLML7LTFJNXYX5GI5KFPBJ56MNRQEN755MEJRWPNQ",
+        "permissions": {
+          "consentToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjBhOGZhODBiLTU3MjQtNDU0OC04MjA3LWMzODFmZWYwMTg4OSIsImV4cCI6MTU3OTYwNDU1NywiaWF0IjoxNTc5NjAwOTU3LCJuYmYiOjE1Nzk2MDA5NTcsInByaXZhdGVDbGFpbXMiOnsiaXNEZXByZWNhdGVkIjoidHJ1ZSIsIm5vbkx3YVNjb3BlcyI6ImFsZXhhOjpwZXJzb25faWQ6cmVhZCIsImNvbnNlbnRUb2tlbiI6IkF0emF8SXdFQklEQXFiWjkzMlVnWDZjZFIwNjcyaVhVN3BwZjVsMXVxUWNLRVpiNEhnYTNGMG1Tdkt0NHk5Q01uWU5KU2M3UkxUWERnMDVTMTVVNFZ3cHhPUHM4b3FUNEJtdDVuS3RwYmMyS3drWWNQcTNsS21EU0tjamZRMFY2VXlDWW9RaTlrbGpEMFE4dGoydFk5VFpNalVJWGxSNG1kZ0x2alZDSkpjVUFKbHNqQm9Iek1kYWxPWmlGblFFRlN2YldEZ0t5OTVZV0pnTUlhV2J4TjQ4anNycEwtcV9mUGNTY0s5aERWR0tlNFhJNHgwNUZaV181X01VdWtiam1XTFBGZ3haV2VEX1N5ZENpemRCeTZ5d0hyakExQUU2WG82WE9GNktTX19MSnRUdzE1QTNBbmJzajhPT29oMDZYWDdOVkJUQ0prbmMtaGF4NlZRRjY1bWVja3FPUUx0N0RteUJheXlxVVJLaEV3clpVYlV0OHU3MUFUTXVmaHpua0ZYRWw4ZktxZ1JZQ1g1WkVzeTFJdTVGWVBCR3I0dzVUcVFXaGdmcnJQMHRicGdqbVFLZEtzblJxMEdGekNieVotTmJLYmZKUTFCZHk1RTZIeF9PZ0tZRjNDNDYxN1d6UnFsQkR5NFhKN1ZhNDg0Y0NyUWd3TnU4aDNVU3MzRXQyb2JOMGNtdFViSXF5b1kyVHRlbVI4ZC05X19VcWpvaHdqdTJoblpVcEZZc05ZWVVtenBRMjVQejJJemZHQjVic2RMVUtnMl9Wc0QtV1l4cl9ieXpyMzJESnVsUVBlV0FkcGpCMTVJeEQxcTZiT1hqc1d5U1ZMakEiLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUVVNEdJR0ZZNDRLQzVUQTQ1R1lCUFhSTFdEU1JENElKWTY3MlBOTEVSUkw1MjZGVVpISlRMMlhaRTVKTVNYVklVTU1YRFhLRkk0VlhSUVBVRTRIRVhPU0tCTTc0NlFFSUhCTTdWM0hTUTJSS1RDTFFFQjU0TkU1T1FSQkg3SkRGVzNSQUJOSlJVWjVKVE40TVEyRjQ3WEMyRDRRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUZTTzZFUlRNSjQ2SFlKTkFJNEdVNVRKSVZHVFpZTFFNR1FBWVZYSEZSRUtBQUQ0Q0FESDJaVDJUU0k2RVVXMlJMSDdFWldOTkdWQUdFUUdVUjdISlkyNVFGVjY0Ukc3V0k0QU9EUjczQ1pKSU9BR083WUJJWVFZMkZLVlVXTUtHT1EyRk9BSktNWUxSQUc3SFNUVlYyWFpBWExKWUlLQ0xCUVlHNlZMTUw3TFRGSk5YWVg1R0k1S0ZQQko1Nk1OUlFFTjc1NU1FSlJXUE5RIn19.fDfAKFGkXs6YEn3xYjcoLcfjt5qjlrUYf31P4VfqFgs02bqUWZLpiVqg23-_38xcLpHWhEEPxCZ-J4DmOR3HE35G_2rzMZuOPUiW6ptfSBx19ZRLVSkFVQnq_wD1me-0SGu2lIgW7VmbXON0tMuCzp3SRJQKQKzxaD_91lZLwXT4wXHDZjMgwO_dn6CNPMnv3nLyM-veunR53e3KIpm5XmJhWGwQCvE-bwt41tRcx_tdTlaIOUyUva8nAh2NWbt6ExBGioU1Ws-H9GdvETjyShBP6itz4UnjqXqBgyXMHGQDvLHtiGGueBGV9du0mhcfbR_D4vp-nQRa8OjnBbZvog",
+          "scopes": {
+            "alexa::devices:all:geolocation:read": {
+              "status": "GRANTED"
+            }
+          }
+        }
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AEU4GIGFY44KC5TA45GYBPXRLWDSRD4IJY672PNLERRL526FUZHJTL2XZE5JMSXVIUMMXDXKFI4VXRQPUE4HEXOSKBM746QEIHBM7V3HSQ2RKTCLQEB54NE5OQRBH7JDFW3RABNJRUZ5JTN4MQ2F47XC2D4Q",
+        "supportedInterfaces": {}
+      },
+      "apiEndpoint": "https://api.eu.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjBhOGZhODBiLTU3MjQtNDU0OC04MjA3LWMzODFmZWYwMTg4OSIsImV4cCI6MTU3OTYwMTI1NywiaWF0IjoxNTc5NjAwOTU3LCJuYmYiOjE1Nzk2MDA5NTcsInByaXZhdGVDbGFpbXMiOnsibm9uTHdhU2NvcGVzIjoiYWxleGE6OnBlcnNvbl9pZDpyZWFkIiwiY29udGV4dCI6IkFBQUFBQUFBQVFCbXNTM0dOeDJIR09WUjdaSDZsOGVkSkFFQUFBQUFBQURsSFFnaUZxSzFaTXF6MnRwUGRtV2ZxZTVHeEw1alJpTnE3MHVMRkhEWjluWWZJOUJkODhoRkh4aXk2ZE9aOHVxT1dhZytiUzQ1YXZkMUpsSzlsenljV1crUXlyNEFPb3h5TURoc1Z4UW96cVNtRHF1SksrRFllOWo2ZlVuOWxUVG9oU3E0VlBtRnpuYlJYQStyejIwdU1kelBrRDFPMTRtVnp1VXRKa2FTU0xRSlVpa0tqWW1zSFdCcGh0OTZ1Rk1xaFBXU21ZVEJFbis4UTUwSkh3Nk9aMEhMdUJBWjZUVzNUUjYxY0VsZW9DVXVwSE95WnhrQ1FRZnJodlduR2E0d0UvV1UwNkZCN2laclhZaUtVSlVNc3duODNINlNaNkFrL1hUZ3BUeG05eFBLbS9uRWlkUjZKVlVIQWF5YTVyUVpUa2VSdUVKMTUvN0o4SXBFS3RlbkhUSnBDR3RMT3ZCQ09tazlwTDBuN0tLMFllT3plR3NpdmlmOXVIODRnRWpMeXRmaCIsImNvbnNlbnRUb2tlbiI6IkF0emF8SXdFQklEQXFiWjkzMlVnWDZjZFIwNjcyaVhVN3BwZjVsMXVxUWNLRVpiNEhnYTNGMG1Tdkt0NHk5Q01uWU5KU2M3UkxUWERnMDVTMTVVNFZ3cHhPUHM4b3FUNEJtdDVuS3RwYmMyS3drWWNQcTNsS21EU0tjamZRMFY2VXlDWW9RaTlrbGpEMFE4dGoydFk5VFpNalVJWGxSNG1kZ0x2alZDSkpjVUFKbHNqQm9Iek1kYWxPWmlGblFFRlN2YldEZ0t5OTVZV0pnTUlhV2J4TjQ4anNycEwtcV9mUGNTY0s5aERWR0tlNFhJNHgwNUZaV181X01VdWtiam1XTFBGZ3haV2VEX1N5ZENpemRCeTZ5d0hyakExQUU2WG82WE9GNktTX19MSnRUdzE1QTNBbmJzajhPT29oMDZYWDdOVkJUQ0prbmMtaGF4NlZRRjY1bWVja3FPUUx0N0RteUJheXlxVVJLaEV3clpVYlV0OHU3MUFUTXVmaHpua0ZYRWw4ZktxZ1JZQ1g1WkVzeTFJdTVGWVBCR3I0dzVUcVFXaGdmcnJQMHRicGdqbVFLZEtzblJxMEdGekNieVotTmJLYmZKUTFCZHk1RTZIeF9PZ0tZRjNDNDYxN1d6UnFsQkR5NFhKN1ZhNDg0Y0NyUWd3TnU4aDNVU3MzRXQyb2JOMGNtdFViSXF5b1kyVHRlbVI4ZC05X19VcWpvaHdqdTJoblpVcEZZc05ZWVVtenBRMjVQejJJemZHQjVic2RMVUtnMl9Wc0QtV1l4cl9ieXpyMzJESnVsUVBlV0FkcGpCMTVJeEQxcTZiT1hqc1d5U1ZMakEiLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUVVNEdJR0ZZNDRLQzVUQTQ1R1lCUFhSTFdEU1JENElKWTY3MlBOTEVSUkw1MjZGVVpISlRMMlhaRTVKTVNYVklVTU1YRFhLRkk0VlhSUVBVRTRIRVhPU0tCTTc0NlFFSUhCTTdWM0hTUTJSS1RDTFFFQjU0TkU1T1FSQkg3SkRGVzNSQUJOSlJVWjVKVE40TVEyRjQ3WEMyRDRRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUZTTzZFUlRNSjQ2SFlKTkFJNEdVNVRKSVZHVFpZTFFNR1FBWVZYSEZSRUtBQUQ0Q0FESDJaVDJUU0k2RVVXMlJMSDdFWldOTkdWQUdFUUdVUjdISlkyNVFGVjY0Ukc3V0k0QU9EUjczQ1pKSU9BR083WUJJWVFZMkZLVlVXTUtHT1EyRk9BSktNWUxSQUc3SFNUVlYyWFpBWExKWUlLQ0xCUVlHNlZMTUw3TFRGSk5YWVg1R0k1S0ZQQko1Nk1OUlFFTjc1NU1FSlJXUE5RIn19.O1ckMKELp6EFIg4FqH_y9zhDo_sHIKuGeKseSZalKwSf6CW7KOdZ8LzRn_S-KHd9_w1bUmqAvf9PkcwZz8gR3QNhKnuWdstwQriCqikIstjfXFjTasghcFXEyc-0Sv6u87tWmMFW9y-KehfFPx-AyUog-Ov_Ko2ZbWBQzU19-4OSFDnXF7YErXd2M3KzwPI44hDqh2HByQWhu4FD-ixUsBkOykUxdOs8rpe7PZCjEEhV7K26qj8opAVbiZ8uf0Pr7m_nQ-u5po4cdJsBqYEaeD1ZX48jVSbUzpuhUMEdwwqpaQ-5UvKGvgpGebZG4eGszo3dDXafkaoEzfjoZsb9ig"
+    },
+    "Viewport": {
+      "experiences": [
+        {
+          "arcMinuteWidth": 246,
+          "arcMinuteHeight": 144,
+          "canRotate": false,
+          "canResize": false
+        }
+      ],
+      "shape": "RECTANGLE",
+      "pixelWidth": 1024,
+      "pixelHeight": 600,
+      "dpi": 160,
+      "currentPixelWidth": 1024,
+      "currentPixelHeight": 600,
+      "touch": [
+        "SINGLE"
+      ],
+      "video": {
+        "codecs": [
+          "H_264_42",
+          "H_264_41"
+        ]
+      }
+    },
+    "Viewports": [
+      {
+        "type": "APL",
+        "id": "main",
+        "shape": "RECTANGLE",
+        "dpi": 160,
+        "presentationType": "STANDARD",
+        "canRotate": false,
+        "configuration": {
+          "current": {
+            "video": {
+              "codecs": [
+                "H_264_42",
+                "H_264_41"
+              ]
+            },
+            "size": {
+              "type": "DISCRETE",
+              "pixelWidth": 1024,
+              "pixelHeight": 600
+            }
+          }
+        }
+      }
+    ]
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.31782ea0-c403-430b-932d-5f0e98e7010f",
+    "timestamp": "2020-01-21T10:02:37Z",
+    "locale": "en-IN",
+    "intent": {
+      "name": "hotelSearch",
+      "confirmationStatus": "NONE",
+      "slots": {
+        "type": {
+          "name": "type",
+          "value": "hotel",
+          "resolutions": {
+            "resolutionsPerAuthority": [
+              {
+                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.0a8fa80b-5724-4548-8207-c381fef01889.typesOf",
+                "status": {
+                  "code": "ER_SUCCESS_MATCH"
+                },
+                "values": [
+                  {
+                    "value": {
+                      "name": "hotels",
+                      "id": "4049cf76aecd83e075d7b9c12d082625"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "confirmationStatus": "NONE",
+          "source": "USER"
+        }
+      }
+    },
+    "dialogState": "STARTED"
+  }
+}
