@@ -5,3 +5,6 @@ AlexaSkill.js is the main file which handles all the requests for the AWS Lambda
 on AWS Lambda.
 
 Multiple JSON files in this respository are mainly input Data files to test out commands and multiple intents of the skill.
+
+![](Screenshot_13.png)
+![](Screenshot_14.png)
